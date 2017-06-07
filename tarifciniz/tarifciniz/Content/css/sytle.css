@@ -1,0 +1,122 @@
+﻿body{
+    background-color:white;
+}
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: 'Lobster 1.4';
+    src: url('../font/Lobster 1.4.otf') format('opentype');
+}
+.wrapper{
+    width:960px;
+    height:auto;
+    margin:0 auto;
+}
+.header-page img{
+    width:100%;
+    height:200px;
+    margin-top:-40px;
+}
+.nav-menu{
+    font-family:'Lobster 1.4';
+    font-size:20px;
+    float:left;
+    width:100%;
+    height:40px;
+}
+.nav-menu ul{
+    float:right;
+    height:40px;
+    margin-top:-2.5px;
+    line-height:40px;
+    width:100%;
+}
+.nav-menu ul li{
+    float:left;
+    line-height:40px;
+}
+.icerik{
+    float:left;
+    margin-top:10px;
+    width: 100%;
+    height:auto;
+}
+.sol-taraf{
+    float:left;
+    width:240px;
+    height:auto;
+}
+.sag-taraf{
+    margin-left:30px;
+    float:left;
+    width:690px;
+    height:auto;
+}
+.kategori-baslik {
+    font-family:'Lobster 1.4';
+    font-size:24px;
+    padding-left:10px;
+    color:white;
+    line-height:40px;
+    height:40px;
+    float:left;
+    width: 230px;
+    background-image: url('../image/kategori-baslik.png');
+}
+.kategori-icerik {
+    font-family:Arial;
+    font-size:18px;
+    float: left;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.kategori-icerik .kategori-wrap{
+    font-family:Arial;
+    font-size:18px;
+    float: left;
+    color:#2f9940;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+ }
+.kategori-icerik .kategori-wrap a{
+    text-decoration:none;
+    color:#2f9940;
+}
+.kategori-icerik ul li{
+    text-decoration:none;
+}
+.slider{
+    font-family:'Lobster 1.4';
+    float:left;
+    width:690px;
+    height:320px;
+}
+.icerik .sag-taraf .slider img{
+    height:320px;
+    width:690px;
+}
+.icerik .sag-taraf .slider a{
+    line-height:320px;
+}
+.icerik .sag-taraf .slider .left-arrow{
+    height:30px;
+    width:30px;
+}
+.icerik .sag-taraf .slider .right-arrow{
+    height:30px;
+    width:30px;
+}
+.icerik .sag-taraf .sag-icerik{
+    font-family:Arial;
+    color:white;
+    margin-top:10px;
+    float:left;
+    width:100%;
+    height:auto;
+}

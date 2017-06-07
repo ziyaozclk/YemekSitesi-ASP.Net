@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF40C01B-6DDB-42DE-8E2A-C08480D906A7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tarifciniz</RootNamespace>
+    <AssemblyName>tarifciniz</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="balikyemekleri.aspx" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\allSytle.css" />
+    <Content Include="Content\css\sytle.css" />
+    <Content Include="Content\font\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\image\cevizli-peynirli-eriste-500x333.jpeg" />
+    <Content Include="Content\image\header1.jpg" />
+    <Content Include="Content\image\kategori-baslik.png" />
+    <Content Include="Content\image\kategori-icerik.png" />
+    <Content Include="Content\image\kaçkar-çorba.jpg" />
+    <Content Include="Content\image\kırmızı-mercimek-çorbası-tarifi-resimli.jpg" />
+    <Content Include="Content\image\left-arrow.png" />
+    <Content Include="Content\image\manti-tarifi1-500x333.jpg" />
+    <Content Include="Content\image\right-arrow.png" />
+    <Content Include="Content\image\slider-picture.jpg" />
+    <Content Include="Content\image\tarhana-corbasi.jpg" />
+    <Content Include="Content\image\Tavuk-Sote-300x250.png" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\jquery-1.12.1.min.js" />
+    <Content Include="Content\js\npm.js" />
+    <Content Include="etyemekleri.aspx" />
+    <Content Include="giriş.aspx" />
+    <Content Include="Hakkımızda.aspx" />
+    <Content Include="hamurlular.aspx" />
+    <Content Include="iletisim.aspx" />
+    <Content Include="index.Master" />
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\css\bootstrap.min.css.map" />
+    <Content Include="Content\font\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\font\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\font\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\font\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\font\Lobster 1.4.otf" />
+    <Content Include="Content\image\Başlıksız-4.psd" />
+    <Content Include="soslar.aspx" />
+    <Content Include="tatlilar.aspx" />
+    <Content Include="zeytinyaglilar.aspx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="anasayfa.aspx" />
+    <Content Include="corbalar.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="mezeler.aspx" />
+    <Content Include="salatalar.aspx" />
+    <Content Include="sebzeyemekleri.aspx" />
+    <Content Include="tarifgonder.aspx" />
+    <Content Include="tarifler.aspx" />
+    <Content Include="tavukyemekleri.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anasayfa.aspx.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfa.aspx.designer.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="balikyemekleri.aspx.cs">
+      <DependentUpon>balikyemekleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="balikyemekleri.aspx.designer.cs">
+      <DependentUpon>balikyemekleri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="corbalar.aspx.cs">
+      <DependentUpon>corbalar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="corbalar.aspx.designer.cs">
+      <DependentUpon>corbalar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="etyemekleri.aspx.cs">
+      <DependentUpon>etyemekleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="etyemekleri.aspx.designer.cs">
+      <DependentUpon>etyemekleri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="giriş.aspx.cs">
+      <DependentUpon>giriş.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="giriş.aspx.designer.cs">
+      <DependentUpon>giriş.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkımızda.aspx.cs">
+      <DependentUpon>Hakkımızda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hakkımızda.aspx.designer.cs">
+      <DependentUpon>Hakkımızda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hamurlular.aspx.cs">
+      <DependentUpon>hamurlular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hamurlular.aspx.designer.cs">
+      <DependentUpon>hamurlular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iletisim.aspx.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iletisim.aspx.designer.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.Master.cs">
+      <DependentUpon>index.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.Master.designer.cs">
+      <DependentUpon>index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="mezeler.aspx.cs">
+      <DependentUpon>mezeler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mezeler.aspx.designer.cs">
+      <DependentUpon>mezeler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="salatalar.aspx.cs">
+      <DependentUpon>salatalar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="salatalar.aspx.designer.cs">
+      <DependentUpon>salatalar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sebzeyemekleri.aspx.cs">
+      <DependentUpon>sebzeyemekleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sebzeyemekleri.aspx.designer.cs">
+      <DependentUpon>sebzeyemekleri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="soslar.aspx.cs">
+      <DependentUpon>soslar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="soslar.aspx.designer.cs">
+      <DependentUpon>soslar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sqlbaglantisi.cs" />
+    <Compile Include="tarifgonder.aspx.cs">
+      <DependentUpon>tarifgonder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tarifgonder.aspx.designer.cs">
+      <DependentUpon>tarifgonder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tarifler.aspx.cs">
+      <DependentUpon>tarifler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tarifler.aspx.designer.cs">
+      <DependentUpon>tarifler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tatlilar.aspx.cs">
+      <DependentUpon>tatlilar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tatlilar.aspx.designer.cs">
+      <DependentUpon>tatlilar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tavukyemekleri.aspx.cs">
+      <DependentUpon>tavukyemekleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tavukyemekleri.aspx.designer.cs">
+      <DependentUpon>tavukyemekleri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zeytinyaglilar.aspx.cs">
+      <DependentUpon>zeytinyaglilar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zeytinyaglilar.aspx.designer.cs">
+      <DependentUpon>zeytinyaglilar.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3609</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3609/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

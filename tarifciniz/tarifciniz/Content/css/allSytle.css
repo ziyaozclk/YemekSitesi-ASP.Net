@@ -1,0 +1,46 @@
+﻿        @font-face {
+            font-family: 'Lobster 1.4';
+            src: url('/Content/font/Lobster 1.4.otf') format(		'opentype');	
+        }
+		.tariflerWrap{
+			float:left;
+			width:690px;
+			height:auto;
+            background-color:#ebe9e9;
+		}
+		.tariflerWrap .tarifBaslik{
+			padding-left:10px;
+			margin-top:10px;
+			float:left;
+			width:680px;
+			height:40px;
+			line-height:40px;
+            background-color:#06d029;
+            color:white;	
+		}
+		.tariflerWrap .tarifResim{
+			float:left;
+			margin-top:5px;
+			margin-left:5px;
+			width:200px;
+			height:200px;
+		}
+		.tariflerWrap .tarifMalzeme{
+			float:left;
+			margin-top:5px;
+			margin-left:10px;
+			padding-left:10px;
+			width:465px;
+			height:auto;
+            background-color:#f85f5f;
+            color:white;
+		}
+		.tariflerWrap .tarifYapilis{
+			float:left;
+			margin-top:5px;
+			padding-left:10px;
+			width:680px;
+			height:auto;
+            background-color:#f85f5f;
+            color:white;
+		}

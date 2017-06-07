@@ -1,0 +1,12 @@
+C:\Users\ZİYA\Documents\Visual Studio 2013\Projects\tarifciniz\tarifciniz\bin\tarifciniz.dll.config
+C:\Users\ZİYA\Documents\Visual Studio 2013\Projects\tarifciniz\tarifciniz\bin\tarifciniz.dll
+C:\Users\ZİYA\Documents\Visual Studio 2013\Projects\tarifciniz\tarifciniz\bin\tarifciniz.pdb
+C:\Users\ZİYA\Documents\Visual Studio 2013\Projects\tarifciniz\tarifciniz\obj\Debug\tarifciniz.csprojResolveAssemblyReference.cache
+C:\Users\ZİYA\Documents\Visual Studio 2013\Projects\tarifciniz\tarifciniz\obj\Debug\tarifciniz.dll
+C:\Users\ZİYA\Documents\Visual Studio 2013\Projects\tarifciniz\tarifciniz\obj\Debug\tarifciniz.pdb
+E:\Projelerim\Yemek Sitesi\tarifciniz\tarifciniz\bin\tarifciniz.dll.config
+E:\Projelerim\Yemek Sitesi\tarifciniz\tarifciniz\bin\tarifciniz.dll
+E:\Projelerim\Yemek Sitesi\tarifciniz\tarifciniz\bin\tarifciniz.pdb
+E:\Projelerim\Yemek Sitesi\tarifciniz\tarifciniz\obj\Debug\tarifciniz.csprojResolveAssemblyReference.cache
+E:\Projelerim\Yemek Sitesi\tarifciniz\tarifciniz\obj\Debug\tarifciniz.dll
+E:\Projelerim\Yemek Sitesi\tarifciniz\tarifciniz\obj\Debug\tarifciniz.pdb
